@@ -1,0 +1,10 @@
+i frame=22px
+rem=16px
+
+
+display grid - 
+
+1fr (frame) = 225px
+1 rem = 16px
+ grid class nammal chrome nokka cheyth
+ opject [position is used to specify how an image or video should be positioned with x and y cordinates]

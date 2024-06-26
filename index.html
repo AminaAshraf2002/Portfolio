@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon"
+        href="data:image/jpeg;base64,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">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <div id="container">
+        <!--navbar  -->
+        <nav id="navbar">
+            <img id="logo" src="./image/WhatsApp Image 2023-11-27 at 4.03.04 PM.jpeg" alt="logo">
+            <ul>
+                <li class="listitem"><a class="links" href="#home">HOME</a></li>
+                <li class="listitem"><a class="links" href="#about">ABOUT</a> </li>
+                <li class="listitem"><a class="links" href="#skill">SKILLS</a></li>
+                <li class="listitem"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <!-- Home -->
+        <section id="home">
+            <div class="title">
+                <h1 class="title_h1">I'M AMINA <span id="lastname"> ASHRAF</span></h1>
+                <p>This is my first official portfolio website to describe all<br>
+                    Details and work experience in Web Development.</p>
+                <a id="download" href="./image/AMINA ASHRAF CV.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <div class="images">
+                <img class="imagegroup" id="shape"
+                    src="./image/WhatsApp_Image_2023-11-27_at_4.03.19_PM-removebg-preview.png" alt="shape">
+                <img class="imagegroup" id="girl"
+                    src="./image/WhatsApp_Image_2023-11-27_at_4.03.11_PM-removebg-preview.png" alt="girl">
+            </div>
+
+        <!-- About -->-=
+        <section id="about">
+            <div class="heading">
+                <h1>About Me</h1>
+                <span>Introduction</span>
+            </div>
+
+            <div class="about_content">
+                <div class="about image">
+                    <img src="./image/about__2_-removebg-preview.png" alt="about">
+                </div>
+                <div class="about_details">
+
+                  <div class="about_para">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda natus aperiam iure
+                            dignissimos autem tempore neque eum accusamus numquam. Ipsum aut numquam, ex commodi expedita
+                            excepturi laboriosam ullam? Aut, quaerat.</p>
+                  </div>
+                        <div class="information">
+                            <div class="info-box">
+                                <i class="fa-solid fa-user" style="color: #0a0a0a;"></i>
+                                <span>Amina Ashraf</span>
+                            </div>
+                            <div class="info-box">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>9605145438</span>
+                            </div>
+                            <div class="info-box">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>aminaashraf246@gmail.com</span>
+                            </div>
+                            <div class="info-box" >
+                                <i class="fa-brands fa-github"></i>
+                                <span>Aminaashraf</span>
+                            </div>
+                        </div>
+                    </section>
+
+    <!-- skills -->
+    <section id="skill">
+        <div class="heading">
+            <h1>Skills</h1>
+            <span>My Skills</span>
+        </div>
+        <div class="skill_container">
+            <div class="progress_container">
+            <div class="progress-bar">
+                <h3>HTML</h3>
+            <span>95%</span>
+            <div class="base-bar"></div>
+            <div class="base-bar html-bar"></div>
+         </div>
+         <div class="progress-bar">
+            <h3>CSS</h3>
+            <span>88%</span>
+            <div class="base-bar"></div>
+            <div class="base-bar css-bar"></div>
+         </div>
+         <div class="progress-bar">
+            <h3>JS</h3>
+            <span>89%</span>
+            <div class="base-bar"></div>
+            <div class="base-bar JS-bar"></div>
+            </div>
+            <div class="progress-bar">
+                <h3>REACT</h3>
+                <span>85%</span>
+                <div class="base-bar"></div>
+                <div class="base-bar react-bar"></div>
+            </div>
+            </div>
+
+            <div class="skill_img">
+                <img src="./image/WhatsApp_Image_2023-11-27_at_4.03.25_PM-removebg-preview.png" alt="no image">
+            </div>
+            
+            
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="heading">
+            <h1>Contact</h1>
+            <span>My Contacts</span>
+        </div>
+        <div class="icon-set">
+            <div class="icon">
+            <a href="" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+            <div class="icon">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                     </a>
+            </div>
+            <div class="icon">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p>© My Portfolio Design 2023, All Rights Reserved ®Amina Ashraf</p>
+        <div class="up-arrow"><a href="#container">
+            <i class="fa-solid fa-arrow-up fa-2x"></i></a></div>
+    </footer>
+                    
+
+</div>
+
+
+</body>
+
+</html>
